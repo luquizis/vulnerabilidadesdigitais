@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-25",
+  "base": "Entre_Mundos_Digitais_revisado_para_homologacao.zip (rodada anterior, fornecido pelo usuário)",
+  "originalPreserved": true,
+  "note": "Diferenças desta rodada em relação ao pacote recebido. O próprio inventário, node_modules, dist e arquivos .env são excluídos da comparação.",
+  "items": [
+    {
+      "path": "app/api/coverage.integration.test.ts",
+      "status": "added",
+      "originalSha256": null,
+      "sha256": "e6f7014ff51889e49d06e9a35ef3c79021e3c46943ce40d41b619e1edd9eebcf"
+    },
+    {
+      "path": "app/api/game-utils.ts",
+      "status": "modified",
+      "originalSha256": "bbb21db3576963e862ce777554863c9f1f175e654d28585274d707aa9e28419b",
+      "sha256": "849aa979f5b83b22ca332a0e1c3a74a6e0a0a5a0bd36235b34a67abe7e110a3d"
+    },
+    {
+      "path": "app/api/research-router.ts",
+      "status": "modified",
+      "originalSha256": "29cece812b15c9c6efad91128f8033edc6d8890f806c17a0ccd134177001a6da",
+      "sha256": "490c94a9397c78ac9849ac93ce83d977264cb86b92f7284ff436f7d87e50e82d"
+    },
+    {
+      "path": "app/db/seed.ts",
+      "status": "modified",
+      "originalSha256": "811d2a0df636a7c27ee66478bba8969e0568278b5254b755b1718603d3bb8379",
+      "sha256": "e2621a7ac3648199eecd961868340fbaaf4997a95e5c37fac60fe671b5f4411a"
+    },
+    {
+      "path": "app/eslint.config.js",
+      "status": "modified",
+      "originalSha256": "4efe97b16d1200fac0eaf07aa00930a8668b1f96a0be1891ace8c1e712ff0ccb",
+      "sha256": "c427e879aa4f5c01dbce3ec3c4661257abd66f57d5b2e8d41670d94787ae79fc"
+    },
+    {
+      "path": "app/src/App.tsx",
+      "status": "modified",
+      "originalSha256": "8042ac12b5c9babf6c43c32aec3de8eadf52555c411c5434005b0bce3fd206d7",
+      "sha256": "d36e433874c708f9e947f12fb91987af3a61d6910df1952758bd541f80bf192a"
+    },
+    {
+      "path": "app/src/components/AuthLayout.tsx",
+      "status": "modified",
+      "originalSha256": "751e39d2bdf3c420a80debbb4780637f14e32e09b335e02f1ad3a03f9f3508cb",
+      "sha256": "1d5b5c0280f6f9d6c288abb548134cce728cf619cab807c7ef7710216f8c45ff"
+    },
+    {
+      "path": "app/src/components/game/AdminPermissions.tsx",
+      "status": "modified",
+      "originalSha256": "b305513e031716e1db11a71027e6d3593ed3da9fb7a2ca58c5636b9f9bfc31e6",
+      "sha256": "69de6596b4fc95091e5d1a8ccaa1dfc7086fd81fdf88cfb1aa1bb45f6729b20f"
+    },
+    {
+      "path": "app/src/components/ui/sidebar.tsx",
+      "status": "modified",
+      "originalSha256": "6074d8027b4bc9ea2d5eb1527a8528a7fa69df96f6261b9c6441c3980d41700f",
+      "sha256": "b4213ea8901f80b32d862eb24532961877feb05a2811edc2d0ab728f8f89edf6"
+    },
+    {
+      "path": "app/src/hooks/useAuth.ts",
+      "status": "modified",
+      "originalSha256": "6e1317eff811f5f358832bb827737eadea68cfd308d7be9c4aa484d4ea8d53b3",
+      "sha256": "40bd8644db1b8d15133e4cb6647075a338a6b679a502e6175c898ce18ceb993a"
+    },
+    {
+      "path": "app/src/index.css",
+      "status": "modified",
+      "originalSha256": "facbb6d363f251f1f895cb87480b484027f71561082cc550676fed656c0a152c",
+      "sha256": "8bb0f9e9793863848e34453a164842802f1cb39d5fda49c00a80700502b52c45"
+    },
+    {
+      "path": "app/src/lib/trpc.ts",
+      "status": "added",
+      "originalSha256": null,
+      "sha256": "c7cf0feb45ca9b24f19412a6ec37c16b736c6205fdb77dacb8235e8e16eec356"
+    },
+    {
+      "path": "app/src/pages/Home.tsx",
+      "status": "modified",
+      "originalSha256": "33af15495c1500eff8d0efc3fe756e676ae43694b007cd7239a7f14d58c0e185",
+      "sha256": "9d595cadd24716a7650bc5d882faec1fe9fb472134182f2e799a8b1ece4495f5"
+    },
+    {
+      "path": "app/src/pages/MediatorPage.tsx",
+      "status": "modified",
+      "originalSha256": "5df78926fab561508c26db1d9242da26d6a5c79ed9fdfa4029168bf46f5f9469",
+      "sha256": "1733f07c75643898ad8c5c64c637dafff643ca0f4940efaa8a482dd7ac81ab7a"
+    },
+    {
+      "path": "app/src/pages/ProjectionPage.tsx",
+      "status": "modified",
+      "originalSha256": "430e175b5f9576fe0821709b3aac36476bef2a120a2f8f889f7e0587a3be219d",
+      "sha256": "c90ebbbe9afa41556766d6a0665dcd118466d3bae5e507c8b336dd8cfe6a37a1"
+    },
+    {
+      "path": "app/src/pages/ResearchPage.tsx",
+      "status": "modified",
+      "originalSha256": "8e709787e7c9a0d801d642f9461587424b7932d95d846ddaa4df98ba06b32946",
+      "sha256": "7438b2b4d891f001f8bb983e6e25369348b60f6907df12f653c4e1aa5727767a"
+    },
+    {
+      "path": "app/src/pages/TeamPage.tsx",
+      "status": "modified",
+      "originalSha256": "685bb9f23a4247b6ad5179c0c0c220253ea3bf5ba15eaa1144d88fb21fd66710",
+      "sha256": "339d1cee408b8a4a34429aae7d3aeea71bf4787fb9a468ff1da9dc6009adfc7a"
+    },
+    {
+      "path": "app/src/providers/trpc.tsx",
+      "status": "modified",
+      "originalSha256": "dd550f1eb751d95d11ccbbbb1aeb7ca049b8d960bf895cea3351dc29015d4f9d",
+      "sha256": "91656844e2bc756ddf4037167916c54ddf81af09ea2e3b8233cab25d53359228"
+    },
+    {
+      "path": "documentacao/INSTALACAO.md",
+      "status": "modified",
+      "originalSha256": "aaf3f8f5d4d010908cef04c07fc8e05eaae687bf1d2da223579eedd85d98c1f5",
+      "sha256": "9dd60376d2525ce9dbf2312f81b3aa8974f140a02d65b078ff5928992e3f8dc5"
+    },
+    {
+      "path": "documentacao/RELATORIO.md",
+      "status": "modified",
+      "originalSha256": "7471ac682898f0bab347a0d51c92b8ac1ba11e75aea0dfe605ba110ff83ff2ac",
+      "sha256": "0b220323c1cb49ce4f0e18b02060a9377fd71158d38ce3b5cfd139a293cc9ba1"
+    },
+    {
+      "path": "documentacao/testes-dominio.tap",
+      "status": "modified",
+      "originalSha256": "b8529fa6ff16433f23de237f434c870667a5d849af92d547170568767da69e80",
+      "sha256": "12938b8b9efad88811f6baf8cc3d653a9802ab13e74b36560885fefb46476f49"
+    },
+    {
+      "path": "documentacao/validacao.json",
+      "status": "modified",
+      "originalSha256": "ec2c45c914472b1bad9bad148c477dd4706bff0e440137acc82463807bd94658",
+      "sha256": "df68fac714f9d818dc07446e34cef81c84abf11a731d48e588f1c3863747cd64"
+    }
+  ]
+}

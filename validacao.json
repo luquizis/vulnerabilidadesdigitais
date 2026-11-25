@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-25",
+  "runtime": "v24.11.1",
+  "database": "MariaDB 10.11 (compatível com o dialeto MySQL 8 exigido pelo projeto)",
+  "install": {
+    "command": "npm ci",
+    "status": "passed"
+  },
+  "typecheck": {
+    "command": "npm run check (tsc -b)",
+    "status": "passed",
+    "errors": 0
+  },
+  "lint": {
+    "command": "npm run lint (eslint .)",
+    "status": "passed",
+    "errors": 0,
+    "warnings": 0,
+    "note": "A rodada começou com 14 erros e 2 avisos herdados da revisão anterior; todos foram corrigidos no código."
+  },
+  "domain": {
+    "command": "npm run test:domain (node --test tests/*.test.mjs)",
+    "status": "passed",
+    "tests": 15,
+    "failures": 0,
+    "report": "testes-dominio.tap"
+  },
+  "integration": {
+    "command": "TEST_DATABASE_URL=mysql://...@localhost/entre_mundos_test npx vitest run",
+    "status": "passed",
+    "files": 2,
+    "tests": 17,
+    "failures": 0,
+    "scope": "estados de sessão, capacidade, entrada repetida, recuperação de dupla, envio simultâneo, idempotência com percurso original, pulo de paradas sensíveis, RBAC de pesquisa, concessão por sessão, exportações com escape, histórico de curadoria, sessão legada sem versão, consulta paginada e agregados"
+  },
+  "build": {
+    "command": "npm run build",
+    "status": "passed",
+    "artifacts": "dist/public (Vite) e dist/boot.js (esbuild)"
+  },
+  "databaseMigration": {
+    "command": "npm run db:preflight e npm run db:migrate em banco legado simulado",
+    "status": "passed",
+    "checks": "preflight aprovado em base sem conflitos; colunas, índices e chaves verificados após aplicação; respostas antigas preservadas com content_version_id nulo; suíte de integração executada contra o banco migrado; preflight em base com duplicidades históricas bloqueou a migração e listou os conflitos, sem alterar dados"
+  },
+  "notExecuted": {
+    "oauthReal": "Login e callback com o provedor Kimi real exigem credenciais de homologação.",
+    "browserFlows": "Não houve teste automatizado de navegador; fluxos de interface descritos em INSTALACAO.md aguardam conferência manual.",
+    "loadTest": "SSE com consulta periódica à persistência não passou por ensaio de carga.",
+    "assistiveTechnology": "Não houve teste formal com leitor de tela nem medição de contraste por ferramenta dedicada."
+  }
+}
